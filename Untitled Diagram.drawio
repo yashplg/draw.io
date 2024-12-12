@@ -1,9 +1,52 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="c5e4eEUKhi4JgoErD2Yf">
-    <mxGraphModel>
+    <mxGraphModel dx="2195" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="M4vX2jNwP-AxctEHSFcd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="210" as="targetPoint" />
+            <mxPoint x="700" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M4vX2jNwP-AxctEHSFcd-4" value="EGRESS HANDLER" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M4vX2jNwP-AxctEHSFcd-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M4vX2jNwP-AxctEHSFcd-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="294" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M4vX2jNwP-AxctEHSFcd-5" value="wrapper" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M4vX2jNwP-AxctEHSFcd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M4vX2jNwP-AxctEHSFcd-10" target="M4vX2jNwP-AxctEHSFcd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M4vX2jNwP-AxctEHSFcd-10" value="app" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M4vX2jNwP-AxctEHSFcd-16" value="redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M4vX2jNwP-AxctEHSFcd-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="M4vX2jNwP-AxctEHSFcd-5" target="M4vX2jNwP-AxctEHSFcd-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M4vX2jNwP-AxctEHSFcd-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M4vX2jNwP-AxctEHSFcd-24" target="M4vX2jNwP-AxctEHSFcd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M4vX2jNwP-AxctEHSFcd-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M4vX2jNwP-AxctEHSFcd-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M4vX2jNwP-AxctEHSFcd-24" value="NATS" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="130" width="176" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M4vX2jNwP-AxctEHSFcd-27" value="MICROSERVICE 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
